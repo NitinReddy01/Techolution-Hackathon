@@ -1,0 +1,130 @@
+
+  
+  .box {
+      max-width: 550px;
+      height: 650px;
+      border: 1px solid black;
+      margin: auto;
+      margin-top: 20px;
+      border-radius: 30px;
+      /* box-shadow: 11px 12px 13px 12px rgb(207, 207, 207); */
+      overflow: hidden;
+    }
+    .loginBox {
+      max-width: 550px;
+      height: 500px;
+      border: 1px solid black;
+      margin: auto;
+      margin-top: 20px;
+      border-radius: 30px;
+      /* box-shadow: 11px 12px 13px 12px rgb(207, 207, 207); */
+      overflow: hidden;
+      background-image: none;
+    }
+    .login {
+      background-color: #00002e;
+      height: 80px;
+      width: 100%;
+      color: white;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 100;
+      font-family: 'Secular One', sans-serif;
+      padding-top: 20px;
+    }
+    
+    .username,.branch{
+      text-align: center;
+      margin-top: 40px;
+    }
+    .branch{
+      margin-top:20px;
+    }
+    .uname,.dropdown,.form-control{
+      width: 400px;
+      height: 50px;
+      outline-color: #00002e;
+      font-size: large;
+      font-weight: bold;
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+    
+    .password {
+      /* border: 1px solid red; */
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .pass-con{
+      position: relative;
+      display: inline-block;
+    }
+  
+    .pword {
+      width: 400px;
+      height: 50px;
+      outline-color: #00002e;
+      font-size: large;
+      font-weight: bold;
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+  
+    .fa{
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+  
+    .loginbtn {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .but {
+      width: 200px;
+      height: 60px;
+      background-color: #00002e;
+      color: white;
+      font-family: 'Secular One', sans-serif;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: all 0.3s;
+    }
+    
+    .but:hover {
+      background-color: rgb(244, 240, 240);
+      color: black;
+    }
+    
+    .or1 {
+      text-align: center;
+      margin-top: 40px;
+      font-family: 'Secular One', sans-serif;
+      font-size: 15px;
+    }
+    
+    .orsign {
+      color:#8181e8;
+      text-decoration: none;
+      font-family: 'Secular One', sans-serif;
+      font-size: 15px;
+    }
+    .message{
+      font-size: small;
+    }
+    .success{
+      color: #00002e;
+    }
+    input{
+      background-color: rgb(252, 243, 243);
+    }
+    span{
+      font-weight:bold;
+    }
+  
